@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.billysusanto.qrnavigation_v2.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="Navigation"
+        android:id="@+id/detailMaps"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/detailText1"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="281dp"
+        android:layout_height="128dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/common_signin_btn_text_pressed_dark"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="253dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/detailText2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
